@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
-import './App.css'
+import React, { Component } from "react";
+import "./App.css";
+import Square from "./Components/Square";
 
-class App extends Component{
-  render(){
-    return(
+class App extends Component {
+  render() {
+    return (
       <>
-        <h1>Hello World!</h1>
+        <h1>Light Bulb Challenge</h1>
+        <Square />
       </>
-    )
+    );
   }
 }
-export default App
+export default App;
